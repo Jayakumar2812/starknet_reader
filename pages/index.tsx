@@ -56,8 +56,8 @@ export default function Home() {
                 <label>Provider Network </label>
                   <select  name="vars" value={Provider} onChange={e => 
                       HandleProvider(e.target.value)} >
-                      <option value= "uint">Mainnet</option>
-                      <option value= "string">Testnet</option>
+                      <option value= "mainnet-alpha">Mainnet</option>
+                      <option value= "goerli-alpha">Testnet</option>
                     </select>
                 <br/><br/>
 

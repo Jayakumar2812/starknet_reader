@@ -26,7 +26,7 @@ import {getSelectorFromName } from "starknet/utils/hash"
 export const main = async (contractAddress,funcName,provideType) => {
   const provider = new starknet.Provider({
       sequencer: {
-        network: 'goerli-alpha'// 'mainnet-alpha' // or 'goerli-alpha'
+        network:  provideType // 'mainnet-alpha' // or 'goerli-alpha'
       }
     })
 console.log(provider)
